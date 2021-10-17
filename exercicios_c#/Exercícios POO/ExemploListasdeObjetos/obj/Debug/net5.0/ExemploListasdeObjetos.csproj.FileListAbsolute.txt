@@ -1,0 +1,16 @@
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\bin\Debug\net5.0\ExemploListasdeObjetos.exe
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\bin\Debug\net5.0\ExemploListasdeObjetos.deps.json
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\bin\Debug\net5.0\ExemploListasdeObjetos.runtimeconfig.json
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\bin\Debug\net5.0\ExemploListasdeObjetos.runtimeconfig.dev.json
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\bin\Debug\net5.0\ExemploListasdeObjetos.dll
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\bin\Debug\net5.0\ref\ExemploListasdeObjetos.dll
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\bin\Debug\net5.0\ExemploListasdeObjetos.pdb
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\obj\Debug\net5.0\ExemploListasdeObjetos.csprojAssemblyReference.cache
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\obj\Debug\net5.0\ExemploListasdeObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\obj\Debug\net5.0\ExemploListasdeObjetos.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\obj\Debug\net5.0\ExemploListasdeObjetos.AssemblyInfo.cs
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\obj\Debug\net5.0\ExemploListasdeObjetos.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\obj\Debug\net5.0\ExemploListasdeObjetos.dll
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\obj\Debug\net5.0\ref\ExemploListasdeObjetos.dll
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\obj\Debug\net5.0\ExemploListasdeObjetos.pdb
+C:\Users\dev\Desktop\exercicios-\Exercícios POO\ExemploListasdeObjetos\obj\Debug\net5.0\ExemploListasdeObjetos.genruntimeconfig.cache

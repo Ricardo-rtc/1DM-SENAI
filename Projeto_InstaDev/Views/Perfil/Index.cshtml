@@ -1,0 +1,145 @@
+@using Microsoft.AspNetCore.Http
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/stylePerfil.css">
+    <title>Página de Perfil</title>
+</head>
+
+<body>
+    <header>
+        <div class="itens-header">
+            <div class="logo-header">
+                <a asp-action="Index" asp-controller="Feed"><img src="~/img/Instadev.svg" alt="Logo do Instadev"
+                        height="30px"></a>
+            </div>
+            <div class="pesquisa-header">
+                <input type="text" placeholder="Pesquisar">
+            </div>
+            <div class="icones-header">
+                <a asp-action="Index" asp-controller="Feed"><img src="~/img/casa.png" alt="Imagem de casa"></a>
+                <img src="~/img/aviao.png" alt="Imagem de Avião de Papel">
+                <img src="~/img/bussola.png" alt="Imagem de Bússola">
+                <img src="~/img/coração.png" alt="Imagem de Coração">
+                @foreach (var item in ViewBag.Usuarios)
+                {
+                    if (item.Username == ViewBag.Username)
+                    {
+                        <a asp-controller="Perfil" asp-action="Index" class="linkParaEditarPerfil"><img
+                        src="/img/Usuarios/@item.Imagem" alt="Imagem do Usuário"></a>
+                    }
+                }
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="_perfil">
+            <div class="container">
+                <div class="foto">
+                    <img src="/img/Usuarios/@ViewBag.Userimagem" alt="">
+                </div>
+
+                <section class="container_yesbaby">
+
+                    <div class="nome_perfil">
+                        <h1>@ViewBag.Username</h1>
+                    </div>
+
+                    <div class="publicacoes">
+                        <h2>2 publicações</h2>
+                        <h2>128 seguindo</h2>
+                        <h2>214 seguidores</h2>
+                    </div>
+                    <div class="sair">
+                        <span>@ViewBag.Nome</span>
+                        <a asp-action="Index" asp-controller="Editar_Perfil">Editar perfil</a>
+                        <a asp-action="Index" asp-controller="Login">Sair</a>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+        <div>
+            <hr>
+        </div>
+
+
+        <div class="pos_hr">
+            <img src="~/img/image 1.svg" alt="">
+            <span>publicações</span>
+        </div>
+
+        @foreach (var item in ViewBag.Posts)
+        {
+            if (item.Usuario == ViewBag.Username)
+            {
+                <section class="post">
+                    <div class="imagem-post">
+                        <img src="/img/Posts/@item.Imagem" alt="">
+                    </div>
+
+
+                    <div>
+                        <div class="container_marcos">
+                            <img class="img_perfil" src="/img/Usuarios/@ViewBag.Userimagem" alt="">
+                            <div class="brazil">
+                                <a>@ViewBag.Username</a>
+                            </div>
+                            <div class="excluir-post"><a asp-area="" asp-controller="Feed" asp-action="Excluir"
+                            asp-route-id="@item.IdPost">Excluir Post</a></div>
+                        </div>
+
+                        <div class="container_curtidas">
+                            <img src="~/img/coração.png" alt="">
+                            <img class="imagemchata" src="~/img/comentario.svg" alt="">
+                            <div>
+                                <span>@item.comentarios curtidas</span>
+                            </div>
+                        </div>
+
+                        <div class="container_comentarios">
+                            <div class="comentarios coment1">
+                                <a>@ViewBag.Username</a>
+                                <span>@item.descricao</span>
+                            </div>
+                            <div class="comentarios coment2">
+                                <a></a>
+                                <span></span>
+                            </div>
+                            <div class="comentarios coment3">
+                                <a></a>
+                                <p></p>
+                            </div>
+                            <div class="comentarios coment4">
+                                <a></a>
+                                <span></span>
+                            </div>
+
+                            <div class="coracao">
+                                <img src="~/img/coração.png" alt="">
+                                <img src="~/img/coração.png" alt="">
+                                <img src="~/img/coração.png" alt="">
+                                <img src="~/img/coração.png" alt="">
+                            </div>
+
+                            <div class="vertodos">
+                                <a href="">Ver todos os 1 comentários</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            }
+        }
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://kit.fontawesome.com/fa6968a204.js"> crossorigin = "anonumous"</script>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container container_header">
+            <nav id="links" class="menu_header">
+                <a href="#container_inicio">Início</a>
+                <a href="#container_sobre">Sobre</a>
+                <a href="#container_desafios">Desafios</a>
+                <a href="#container_endereco">Endereço</a>
+                <a class="botaofechar" href="#container_fechar" onclick="botaodomenu()">Fechar</a>
+            </nav>
+            <a class="btn_menu" href="#container_fechar" onclick="botaodomenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="container_inicio" class="container_banner">
+            <img class="fundo_banner" src="assets_/imagem-fundo-banner.png" alt="banner">
+            <div class="box_conteudo">
+                <h1>Desenvolvimento de sistemas 2021</h1>
+                <hr class="hr_banner">
+                <span>Senai informática</span>
+                <img class="icone_mouse" src="assets_/mouse.svg" alt="">
+            </div>
+        </section>
+        <section id="container_sobre" class="container_sobre">
+            <div class="container espacamento_sobre">
+                <h2 class="h2_sobre">Sobre os projetos</h2>
+                <div class="box_sobre">
+                    <img class="img_box_sobre" src="assets_/imagem-sessão.png" alt="banner sessão sobre">
+                    <div class="box_sobre_textos">
+                        <span>participantes</span>
+                        <h3 class="h3_sobre">mais de 80 alunos organizados em 16 grupos</h3>
+                        <p id=Lorem_ipsum>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure
+                            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="container_desafios" class="info">
+            <div class="container container_info">
+                <div>
+                    <h2>local</h2>
+                    <div class="box_span">
+                        <span>são paulo</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>duração</h2>
+                    <div class="box_span">
+                        <span>90 dias</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h2>desafios</h2>
+                    <div class="box_span">
+                        <span>+30 desafios</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="container_endereco" class="endereco">
+            <h2>endereço:</h2>
+            <div class="box_endereco">
+                <p>Alameda Barão de Limeira, 539
+                    Santa Cecília, São Paulo - SP
+                    CEP: 01202-001</p>
+            </div>
+            <img class="endereco_img" src="assets_/mapa.png" alt="mapa">
+        </section>
+    </main>
+    <footer>
+        <span>Copyright © 2020 - Escola Senai de Informática</span>
+    </footer>
+
+    <script>
+        function botaodomenu() {
+            var menu = document.getElementById("links");
+            if (menu.style.display === "flex"){
+                // Esconda o menu
+                menu.style.display = "none";
+            }
+            else{
+                // Mostre o menu
+                menu.style.display = "flex"
+            }
+        }
+    </script>
+</body>
+
+</html>

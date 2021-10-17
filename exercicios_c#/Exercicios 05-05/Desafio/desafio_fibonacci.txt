@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numeroAnterior = -1
+          inteiro ultimoN = 1
+          inteiro resultado
+          inteiro i = 0
+        
+          escreva("\nFibonacci\n")
+
+          para (; i <= 14; i++ )
+          {
+          	
+               resultado = numeroAnterior + ultimoN
+               numeroAnterior = ultimoN
+               ultimoN = resultado
+               escreva(resultado + " | ")
+               
+          }
+	}
+}

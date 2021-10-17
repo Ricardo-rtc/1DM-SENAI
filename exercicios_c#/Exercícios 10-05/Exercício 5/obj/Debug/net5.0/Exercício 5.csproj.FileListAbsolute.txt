@@ -1,0 +1,16 @@
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\bin\Debug\net5.0\Exercício 5.exe
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\bin\Debug\net5.0\Exercício 5.deps.json
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\bin\Debug\net5.0\Exercício 5.runtimeconfig.json
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\bin\Debug\net5.0\Exercício 5.runtimeconfig.dev.json
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\bin\Debug\net5.0\Exercício 5.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\bin\Debug\net5.0\ref\Exercício 5.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\bin\Debug\net5.0\Exercício 5.pdb
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\obj\Debug\net5.0\Exercício 5.csprojAssemblyReference.cache
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\obj\Debug\net5.0\Exercício 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\obj\Debug\net5.0\Exercício 5.AssemblyInfoInputs.cache
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\obj\Debug\net5.0\Exercício 5.AssemblyInfo.cs
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\obj\Debug\net5.0\Exercício 5.csproj.CoreCompileInputs.cache
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\obj\Debug\net5.0\Exercício 5.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\obj\Debug\net5.0\ref\Exercício 5.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\obj\Debug\net5.0\Exercício 5.pdb
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exercícios 10-05\Exercício 5\obj\Debug\net5.0\Exercício 5.genruntimeconfig.cache

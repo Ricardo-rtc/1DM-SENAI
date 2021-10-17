@@ -1,0 +1,32 @@
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\bin\Debug\net5.0\Exemploconsole.exe
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\bin\Debug\net5.0\Exemploconsole.deps.json
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\bin\Debug\net5.0\Exemploconsole.runtimeconfig.json
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\bin\Debug\net5.0\Exemploconsole.runtimeconfig.dev.json
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\bin\Debug\net5.0\Exemploconsole.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\bin\Debug\net5.0\ref\Exemploconsole.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\bin\Debug\net5.0\Exemploconsole.pdb
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\obj\Debug\net5.0\Exemploconsole.csprojAssemblyReference.cache
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\obj\Debug\net5.0\Exemploconsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\obj\Debug\net5.0\Exemploconsole.AssemblyInfoInputs.cache
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\obj\Debug\net5.0\Exemploconsole.AssemblyInfo.cs
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\obj\Debug\net5.0\Exemploconsole.csproj.CoreCompileInputs.cache
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\obj\Debug\net5.0\Exemploconsole.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\obj\Debug\net5.0\ref\Exemploconsole.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\obj\Debug\net5.0\Exemploconsole.pdb
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\4Abril\Exemploconsole\obj\Debug\net5.0\Exemploconsole.genruntimeconfig.cache
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\bin\Debug\net5.0\Exemploconsole.exe
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\bin\Debug\net5.0\Exemploconsole.deps.json
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\bin\Debug\net5.0\Exemploconsole.runtimeconfig.json
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\bin\Debug\net5.0\Exemploconsole.runtimeconfig.dev.json
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\bin\Debug\net5.0\Exemploconsole.dll
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\bin\Debug\net5.0\ref\Exemploconsole.dll
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\bin\Debug\net5.0\Exemploconsole.pdb
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\obj\Debug\net5.0\Exemploconsole.csproj.AssemblyReference.cache
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\obj\Debug\net5.0\Exemploconsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\obj\Debug\net5.0\Exemploconsole.AssemblyInfoInputs.cache
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\obj\Debug\net5.0\Exemploconsole.AssemblyInfo.cs
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\obj\Debug\net5.0\Exemploconsole.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\obj\Debug\net5.0\Exemploconsole.dll
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\obj\Debug\net5.0\ref\Exemploconsole.dll
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\obj\Debug\net5.0\Exemploconsole.pdb
+C:\Users\Ricardo\Desktop\Github\exercicios_c-\obj\Debug\net5.0\Exemploconsole.genruntimeconfig.cache

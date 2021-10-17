@@ -1,0 +1,65 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		logico resposta
+		resposta = falso
+		caracter Nome
+		caracter Senha
+		inteiro tamanhoString
+
+	
+		faca
+		{
+			escreva("Para se cadastra em nosso sistema digite seu nome: ")
+			leia(Nome) 
+
+			escreva("Agora digite a sua senha: ")
+			leia(Senha)
+
+			se(Nome == Senha )
+			{
+				faca
+				{ 
+					escreva("Sua senha e nome de usuário são iguais. Digite uma senha diferente do nome de usuário. Digite outra senha: ")
+					leia(Senha)
+					 
+				}enquanto(Nome == Senha)
+				resposta = verdadeiro
+			}
+			senao
+			{
+				resposta = verdadeiro 
+			}
+			se(tamanhoString >=8)
+			{
+				resposta = true	
+			}
+			senao
+			{
+				faca
+				{
+					se (tamanhoString < 8)
+                        {
+                            escreva(@"
+Sua senha é menor que 8 caracteres.  
+Digite uma senha válida: ")
+                            leia(respostaSenha)
+                            tamanhoString = respostaSenha.Length
+                        }
+                        se (respostaNome == respostaSenha)
+                        {
+                            escreva(@"
+Seu nome de usuário e a senha são iguais! 
+Digite uma senha válida: ")
+                            leia(respostaSenha)
+                            tamanhoString = respostaSenha.Length
+                        }
+
+				}enquanto((tamanhoString < 8) || (Nome == Senha))
+				resposta = verdadeiro
+			} 
+		}enquanto (resposta == falso)
+	}
+}

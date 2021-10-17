@@ -1,0 +1,16 @@
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\bin\Debug\net5.0\Exemplo 03-05.exe
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\bin\Debug\net5.0\Exemplo 03-05.deps.json
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\bin\Debug\net5.0\Exemplo 03-05.runtimeconfig.json
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\bin\Debug\net5.0\Exemplo 03-05.runtimeconfig.dev.json
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\bin\Debug\net5.0\Exemplo 03-05.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\bin\Debug\net5.0\ref\Exemplo 03-05.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\bin\Debug\net5.0\Exemplo 03-05.pdb
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\obj\Debug\net5.0\Exemplo 03-05.csprojAssemblyReference.cache
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\obj\Debug\net5.0\Exemplo 03-05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\obj\Debug\net5.0\Exemplo 03-05.AssemblyInfoInputs.cache
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\obj\Debug\net5.0\Exemplo 03-05.AssemblyInfo.cs
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\obj\Debug\net5.0\Exemplo 03-05.csproj.CoreCompileInputs.cache
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\obj\Debug\net5.0\Exemplo 03-05.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\obj\Debug\net5.0\ref\Exemplo 03-05.dll
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\obj\Debug\net5.0\Exemplo 03-05.pdb
+C:\Users\administrador\Desktop\Escolar Document's\Senai\Atividades\5Maio\Exercícios C#\Exemplo 03-05\obj\Debug\net5.0\Exemplo 03-05.genruntimeconfig.cache

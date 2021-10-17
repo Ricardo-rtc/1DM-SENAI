@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		logico resposta
+		real number
+	    
+		escreva("Escreva um número de 0 a 10: ")
+		leia(number)
+		resposta = falso
+		
+		faca{
+			se (number > 10)  {
+			escreva("Número inválido! Escreva um número de 0 a 10: ")
+			leia(number)
+			} 	
+			senao {
+			resposta = verdadeiro
+			escreva("Número válido!\n")
+			escreva("FIM DA EXECUÇÃO")}
+		
+			}
+			enquanto (resposta == falso)
+		}
+	
+}

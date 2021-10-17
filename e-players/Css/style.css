@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    overflow-x: hidden;
+} */
+
+main {
+    background: #1E1C21;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1e1c21;
+    height: 108px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo_header {
+    width: 286px;
+    height: 30px;
+}
+
+.menu_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 590px;
+}
+
+.menu_header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.btn_menu {
+    display: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.container_banner {
+    background-image: linear-gradient(90deg, #C31616, #c31616, #000, #000);
+    margin-top: 107px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box_conteudo_banner {
+    margin-top: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h1_titulo {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+
+.box_conteudo_banner .conteudo {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.btn_inscreva {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+    border-color: #c31616;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #c31616;
+    color: white;
+}
+
+.fundo_parcerias {
+    /* width: 100%; */
+    height: 130px;
+    background-color: #000;
+}
+
+.box_parcerias {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+}
+
+.fundo_liga {
+    height: 511px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container_ligas {
+    height: 511px;
+    background-image: linear-gradient(rgba(0, 31, 112, 0.7), rgba(0, 31, 112, 0.7)), url(assets/bg-lol.jpg);
+    position: relative;
+}
+
+.box_color_black {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container_ligas .color_black {
+    background: #000;
+    transform: skewY(-3deg);
+    height: 80%;
+    width: 100%;
+}
+
+.box_box_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box_img {
+    display: flex;
+    position: absolute;
+    top: 80px;
+}
+
+.h2_ligas {
+    color: #ffffff;
+    font-family: Titillium Web;
+    font-weight: bold;
+    font-size: 35px;
+    height: 90px;
+}
+
+.p_ligas {
+    color: #ffffff;
+    width: 640px;
+    height: 300px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: justify;
+}
+
+.img_ligas {
+    width: 370px;
+}
+
+.container_horarios {
+    background: #000;
+    height: 100%;
+    width: 100%;
+}
+
+.fundo_horarios {
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.fundo_horarios p {
+    text-transform: uppercase;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 49px;
+    color: #FFFFFF
+}
+
+.title_horarios {
+    text-transform: uppercase;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    color: #FFFFFF
+}
+
+.times {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.hr_horarios {
+    height: 50px;
+}
+
+.img_sk {
+    height: 35px;
+}
+
+.img_fla {
+    height: 35px;
+}
+
+.vs_manager {
+    text-transform: uppercase;
+    font-family: Titillium Web;
+    line-height: 49px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 0px;
+    margin: 5px;
+}
+
+.container_noticias {
+    width: auto;
+    height: 1000px;
+    background: #1E1C21;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_box_articles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_articles {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article {
+    margin: 0 20px;
+}
+
+.img_article {
+    width: 217px;
+    height: 137px;
+}
+
+.title_noticia {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Titillium Web;
+    text-transform: uppercase;
+}
+
+.noticia_fundo {
+    width: 217px;
+    height: 200px;
+    background: linear-gradient(0deg, #000000 48.14%, rgba(118, 118, 118, 0) 100%);
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.noticia_fundo p {
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: justify;
+    margin: 15px;
+    color: #FFFFFF;
+}
+
+.divisao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linear_black {
+    width: 300px;
+    height: 881px;
+    background: linear-gradient(180.02deg, #000000 0.02%, rgba(0, 0, 0, 0) 38.03%, rgba(0, 0, 0, 0.28) 69.78%, #000000 99.98%);
+}
+
+.sk_manager {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 30px;
+    margin: 15px;
+    color: #FFFFFF;
+}
+
+.title_notice {
+    width: 100%;
+    height: 100px;
+    margin-left: 20px;
+    color: #ffffff;
+    font-family: Titillium Web;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.font_horario {
+    font-family: Roboto;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.card_times {
+    display: flex;
+    height: 85px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_partidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.box_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_links {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.box_links span {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.box_links li {
+    color: white;
+}
+
+.box_links a {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.siga .newsletter {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+.siga img {
+    height: 40px;
+    width: 40px;
+}
+
+.box_cadastro_social {
+    display: flex;
+}
+
+.box_cadastro_social input {
+    height: 40px;
+    width: 220px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+}
+
+.box_cadastro_social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #016AB7;
+    height: 40px;
+    width: 126px;
+}
+
+.box_cadastro_social a span {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 420px) {
+    .container {
+        width: 420px;
+        margin: 0 auto;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    .container_header {
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+    }
+
+    .logo_header {
+        width: 200px;
+    }
+
+    .menu_header {
+        display: none;
+        height: 300px;
+        width: 100%;
+        padding-left: 10vw;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: unset;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        ;
+        background-color: #000;
+    }
+
+    .botaofechar {
+        display: inline-block;
+    }
+
+    .btn_menu {
+        display: inline-block;
+    }
+
+    .container_banner {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 550px;
+        background-image: linear-gradient(180deg, #C31616, #c31616, #c31616,  rgb(15, 14, 14), rgb(20, 20, 20));
+    }
+
+    .container_banner img {
+        width: 405px;
+    }
+
+    .h1_titulo {
+        font-size: 50px;
+    }
+
+    .box_conteudo_banner {
+        height: 180px;
+    }
+
+    .box_conteudo_banner .conteudo {
+        font-size: 16px;
+    }
+
+    .btn_inscreva {
+        font-size: 20px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .fundo_parcerias {
+        height: 100%;
+    }
+
+    .box_parcerias {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+      
+        height: 500px;
+    }
+    
+    .imgs {
+        height: 35px;
+    }
+
+    .container_ligas {
+        height: 1050px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .box_color_black {
+        display: none;
+    }
+
+    .box_box_img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_conteudo_ligas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box_img {
+        position: unset;
+        
+    }
+
+    .box_box_img {
+        display: flex;
+        align-items: center;
+    }
+
+    .h2_ligas {
+        font-size: 30px;
+        height: 70px;
+        margin-top: 20px;
+    }
+
+    .p_ligas {
+        width: 300px;
+        height: 570px;
+    }
+
+    .container_horarios {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+
+    .fundo_horarios {
+        flex-direction: column;
+        height: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hr_horarios {
+        width: 250px;
+        height: 2px;
+    }
+    
+    .divisao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_noticias {
+        height: auto;
+    }
+
+    .title_notice { 
+        width: 375px;
+        justify-content: center;
+
+    }
+
+    .box_box_articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1142px;
+    }
+
+    .box_articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 1112px;
+    }
+
+    .linear_black {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-left: 63px;
+        margin-bottom: 50px;
+
+    }
+
+    footer {
+        height: 500px;
+    }
+   
+    .box_footer {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       height: 450px;
+    }
+
+    .box_links a {
+        font-size: 13px;
+    }
+
+    .logo_footer {
+        height: 25px;
+    }
+
+    .siga .newsletter {
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+        font-size: 12px;
+    }
+
+    .box_cadastro_social {
+        display: flex;
+    }
+    
+    .box_cadastro_social input {
+        height: 30px;
+        width: 175px;
+    }
+    
+    .box_cadastro_social a {
+        height: 30px;
+        width: 85px;
+    }
+    
+    .box_cadastro_social  a span {
+        font-size: 16px;
+    }
+
+}

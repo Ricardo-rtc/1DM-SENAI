@@ -1,0 +1,188 @@
+@model Post
+@{
+    ViewData["Title"] = "Feed";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/styleFeed.css">
+</head>
+
+<body>
+    <header>
+        <div class="itens-header">
+            <div class="logo-header">
+                <img src="~/img/Instadev.svg" alt="Logo do Instadev" height="30px">
+            </div>
+            <div class="pesquisa-header">
+                <input type="text" placeholder="Pesquisar">
+            </div>
+            <div class="icones-header">
+                <img src="~/img/Vector.png" alt="Imagem de casa">
+                <img src="~/img/plane 1.png" alt="Imagem de Avião de Papel">
+                <img src="~/img/compass 1.png" alt="Imagem de Bússola">
+                <img src="~/img/Vector (1).png" alt="Imagem de Coração">
+                @foreach (var item in ViewBag.Usuarios)
+                {
+                    if (item.Username == ViewBag.Username)
+                    {
+                        <a asp-controller="Perfil" asp-action="Index" class="linkParaEditarPerfil"><img
+                        src="/img/Usuarios/@item.Imagem" alt="Imagem do Usuário"></a>
+                    }
+                }
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="itens-feed">
+            <div class="perfis">
+                <section class="stories">
+                    <div class="perfil-story">
+                        <img src="~/img/chaves_metal 1.png" alt="Foto de Perfil">
+                        <div class="nome-perfil-story">chaves_metal
+                        </div>
+                    </div>
+                    <div class="perfil-story">
+                        <img src="~/img/samuel-rosa-bebê 1.png" alt="Foto de Perfil">
+                        <div class="nome-perfil-story">samuel_rosa
+                        </div>
+                    </div>
+                    <div class="perfil-story">
+                        <img src="~/img/vin-diesel 1.png" alt="Foto de Perfil">
+                        <div class="nome-perfil-story">vin_diesel
+                        </div>
+                    </div>
+                    <div class="perfil-story">
+                        <img src="~/img/tony_stark 1.png" alt="Foto de Perfil">
+                        <div class="nome-perfil-story">adriano_stark
+                        </div>
+                    </div>
+                    <div class="perfil-story">
+                        <img src="~/img/will-baiano 1.png" alt="Foto de Perfil">
+                        <div class="nome-perfil-story">will_baiano
+                        </div>
+                    </div>
+                    <div class="perfil-story">
+                        <img src="~/img/gabigordo 1.png" alt="Foto de Perfil">
+                        <div class="nome-perfil-story">gabigordo
+                        </div>
+                    </div>
+                    <div class="perfil-story">
+                        <img src="~/img/pele 1.png" alt="Foto de Perfil">
+                        <div class="nome-perfil-story">king_pele
+                        </div>
+                    </div>
+                </section>
+                <div class="perfil-usuario">
+                    <div class="imagem-perfil-usuario">
+                        @foreach (var item in ViewBag.Usuarios)
+                        {
+                            if (item.Username == ViewBag.Username)
+                            {
+                                <a asp-controller="Perfil" asp-action="Index" class="imagem-perfil-usuario-linkParaEditarPerfil"><img
+                                src="/img/Usuarios/@item.Imagem" alt="Imagem do Usuário"></a>
+                            }
+                        }
+
+                    </div>
+                    <div class="nome-usuario">
+                        <p style="font-weight: bold; color: black;">@ViewBag.Username</p>
+                        <p style="color: #B6B6B6;">@ViewBag.Nome</p>
+                    </div>
+                </div>
+            </div>
+            <section class="publicar">
+                <div class="usuario-publicar">
+                    @foreach (var item in ViewBag.Usuarios)
+                {
+                    if (item.Username == ViewBag.Username)
+                    {
+                        <a asp-controller="Perfil" asp-action="Index" class="usuario-publicar-linkParaEditarPerfil"><img
+                        src="/img/Usuarios/@item.Imagem" alt="Imagem do Usuário"></a>
+                    }
+                }
+                    <h3>Postar</h3>
+                </div>
+                <form class="conteudo-publicar" method="POST" action='@Url.Action("Postar")'
+                    enctype="multipart/form-data">
+                    <div class="descricao-publicar">
+                        <input type="text" placeholder="Digite a descrição da imagem..." name="descricao">
+                    </div>
+                    <label class="label" for="input-publicar">Escolha a Imagem</label>
+                    <input name="Imagem" class="input-publicar" type="file" id="input-publicar" required>
+                    <div class="botao-postar"><button type="submit">Postar</button></div>
+                </form>
+
+            </section>
+            <section class="post">
+                <div class="dono-do-post">
+                    <img src="~/img/gabigordo 1.png" alt="Foto do Dono do Post">
+                    <div class="info-donoPost">
+                        <div class="nome-donoPost">gabigordo</div>
+                        <div class="localizacao-donoPost">Flamengo, RJ</div>
+                    </div>
+                </div>
+                <div class="foto-do-post">
+                    <img src="~/img/post-gabigordo 1.png" alt="Foto do Post">
+                </div>
+                <div class="feedback-post">
+                    <div class="curtir-comentar">
+                        <img src="~/img/Vector (1).png" alt="Símbolo de Like">
+                        <img src="~/img/Vector (2).png" alt="Símbolo de Comentário">
+                        <input type="text" placeholder="Comentar...">
+                    </div>
+                    <div class="contagem-curtidas">459709 curtidas</div>
+                    <div class="comentario">
+                        <div class="dono-comentario">gabigordo</div>
+                        <div class="conteudo-comentario"> #Flamengo Amo vocês mil milhões!</div>
+                    </div>
+                    <div class="comentario">
+                        <div class="dono-comentario">yes_baby</div>
+                        <div class="conteudo-comentario">thank you</div>
+                    </div>
+                    <div class="comentario">
+                        <div class="dono-comentario">king_pele</div>
+                        <div class="conteudo-comentario">Esses são bons de bola, entende?</div>
+                    </div>
+                </div>
+            </section>
+
+            @foreach (var item in ViewBag.Posts)
+            {
+                <section class="post">
+                    <div class="dono-do-post">
+                        <div class="img-info-dono-post">
+                            <img src="/img/Usuarios/@item.ImagemUsuario" alt="Foto do Dono do Post">
+                            <div class="info-donoPost">
+                                <div class="nome-donoPost">@item.Usuario</div>
+                                <div class="localizacao-donoPost"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="foto-do-post">
+                        <img src="/img/Posts/@item.Imagem">
+                    </div>
+                    <div class="feedback-post">
+                        <div class="curtir-comentar">
+                            <img src="~/img/Vector (1).png" alt="Símbolo de Like">
+                            <img src="~/img/Vector (2).png" alt="Símbolo de Comentário">
+                            <input type="text" placeholder="Comentar...">
+                        </div>
+                        <div class="contagem-curtidas">@item.comentarios curtidas</div>
+                        <div class="comentario">
+                            <div class="dono-comentario">@item.Usuario</div>
+                            <div class="conteudo-comentario">@item.descricao</div>
+                        </div>
+                    </div>
+                </section>
+            }
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

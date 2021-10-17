@@ -1,0 +1,345 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        body {
+            width: auto;
+            height: auto;
+            background-color: #fafafa;
+        }
+        
+        header {
+            height: 55px;
+            display: flex;
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 1px #dbdbdb;
+            border-radius: 3px;
+        }
+        
+        .logo-header {
+            background-color: #FFFFFF;
+            width: 10%;
+        }
+        
+        .logo-header img {
+            background-color: #FFFFFF;
+            width: 100%;
+        }
+        
+        .itens-header {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-self: flex-end;
+        }
+        
+        .icones-header {
+            width: 22%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #FFFFFF;
+        }
+        
+        .icones-header img {
+            background-color: #FFFFFF;
+        }
+        
+        .linkParaEditarPerfil {
+            background-color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 14%;
+        }
+        
+        .linkParaEditarPerfil img {
+            background-color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .pesquisa-header {
+            margin-left: 10%;
+            width: 25%;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            background-color: #FAFAFA;
+            align-self: center;
+        }
+        
+        .pesquisa-header input {
+            width: 100%;
+            height: 80%;
+            background-color: #FAFAFA;
+            border: solid 1px #dbdbdb;
+            border-radius: 3px;
+            color: #262626;
+            padding-left: 5%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-size: 85%;
+            line-height: 50%;
+            background: url(../img/lupa.png) no-repeat scroll 30% 50%;
+            padding-left: 37%;
+        }
+        
+        ._perfil {
+            display: flex;
+            margin-left: 285px;
+            margin-top: 45px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: center;
+        }
+        
+        .foto {
+            display: flex;
+            width: 18%;
+        }
+        
+        .foto img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .nome_perfil h1 {
+            margin-left: 143px;
+            display: flex;
+            font-size: 26px;
+            font-weight: 400;
+        }
+        
+        .publicacoes {
+            display: flex;
+            align-items: center;
+            justify-content: row;
+            margin-left: 103px;
+        }
+        
+        .publicacoes h2 {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 15px;
+            margin-left: 40px;
+        }
+        
+        .sair {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 143px;
+        }
+        
+        .sair span {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        
+        .sair a {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2686cc;
+        }
+        
+        .container_yesbaby {
+            display: flex;
+            flex-direction: column;
+            margin-top: 24px;
+        }
+        
+        hr {
+            border: 1px solid #DCDCDC;
+            margin-top: 20px;
+            margin-left: 200px;
+            display: flex;
+            width: 926px;
+        }
+        
+        .pos_hr {
+            display: flex;
+            align-items: center;
+            width: 932px;
+            height: 40px;
+            text-transform: uppercase;
+            margin-left: 400px;
+            margin-top: 15px;
+        }
+        
+        .pos_hr img {
+            width: 16px;
+            height: 14px;
+        }
+        
+        .pos_hr span {
+            margin-left: 5px;
+        }
+        
+        .post {
+            display: flex;
+            width: 933px;
+            background-color: #FFFFFF;
+            margin-left: 200px;
+            margin-top: 20px;
+        }
+        
+        .imagem-post {
+            width: 45%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+        }
+        
+        .imagem-post img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .excluir-post {
+            background-color: #FFFFFF;
+            display: flex;
+            justify-self: right;
+            margin-left: auto;
+        }
+        
+        .excluir-post a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #FFFFFF;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: red;
+        }
+        
+        .container_marcos {
+            align-items: center;
+            margin-left: 36px;
+            display: flex;
+            width: 86%;
+            margin-top: 36px;
+        }
+        
+        .img_perfil {
+            width: 65px;
+            height: 65px;
+        }
+        
+        .brazil {
+            display: flex;
+            flex-direction: column;
+            margin-left: 21px;
+        }
+        
+        .brazil span {
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+        }
+        
+        .brazil a {
+            text-decoration: none;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            color: black;
+        }
+        
+        .container_curtidas {
+            margin-left: 39px;
+            margin-top: 35px;
+        }
+        
+        .imagemchata {
+            margin-left: 19px;
+        }
+        
+        .container_comentarios {
+            display: flex;
+            flex-direction: column;
+            margin: 39px;
+            width: 440px;
+        }
+        
+        .comentarios {
+            width: 80%;
+        }
+        
+        .comentarios a {
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+            margin-top: 1px;
+            font-size: 13px;
+            margin-right: 3%;
+        }
+        
+        .comentarios span {
+            font-size: 13px;
+        }
+        
+        .coment2 {
+            margin-top: 5px;
+            margin-right: 74px;
+        }
+        
+        .coment3 p {
+            font-size: 13px;
+            margin-top: 5px;
+            margin-right: 93px;
+        }
+        
+        .coment4 {
+            margin-right: 70px;
+        }
+        
+        .voce {
+            font-size: 13px;
+            margin-left: 90px;
+            margin-bottom: 5px;
+        }
+        
+        .coracao {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            margin-left: 420px;
+            margin-bottom: 100px;
+        }
+        
+        .vertodos {
+            display: flex;
+            margin-top: 50px;
+        }
+        
+        .vertodos a {
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 400;
+            color: #909090;
+        }
+        
+        footer {
+            width: 100%;
+            height: 200px;
+            bottom: 0;
+        }
